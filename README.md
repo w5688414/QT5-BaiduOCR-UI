@@ -16,20 +16,20 @@
     该项目自带了一个测试用的 API 实例，可将 app.py 中的实例更换为自己的API
 
     ```python
-class MainWindow(QMainWindow, Ui_MainWindow):
-    def __init__(self, parent=None):
-        super(MainWindow, self).__init__(parent=parent)
-        self.setupUi(self)
-        self.text = ""
-        self.strTime = ""
-        self.basicid = ""
-        self.filePath = ""
+    class MainWindow(QMainWindow, Ui_MainWindow):
+        def __init__(self, parent=None):
+            super(MainWindow, self).__init__(parent=parent)
+            self.setupUi(self)
+            self.text = ""
+            self.strTime = ""
+            self.basicid = ""
+            self.filePath = ""
 
-        self.APP_ID = 'yourId'   #APP_ID
-        self.API_KEY = 'yourKey'  #API_KEY
-        self.SECRET_KEY =  'yoursecret'  #SECRET_KEY
-        self.aipOcr = AipOcr(self.APP_ID, self.API_KEY, self.SECRET_KEY)
-        ....
+            self.APP_ID = 'yourId'   #APP_ID
+            self.API_KEY = 'yourKey'  #API_KEY
+            self.SECRET_KEY =  'yoursecret'  #SECRET_KEY
+            self.aipOcr = AipOcr(self.APP_ID, self.API_KEY, self.SECRET_KEY)
+            ....
     ```
 
 - 运行

@@ -8,6 +8,7 @@
 - PyQt5 5.14
 - baidu-aip 2.2+
 - tqdm
+- pandas
 
 ## 运行
 

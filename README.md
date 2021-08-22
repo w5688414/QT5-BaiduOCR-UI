@@ -37,6 +37,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 `python app.py`
 
 
+![](./result/ui.png)
+
 
 ## 应用程序
 
@@ -47,4 +49,5 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 - 点击 “选择图片” 选择需要识别的图片；
 - 点击 “开始识别” 开始文字识别，结果将出现在右侧的文本框中；
 - 点击 “清空”，将清除已选择的图片和文本框中的内容；
+- 点击 “配置API Key”，更新你的百度API的key；
 

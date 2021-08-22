@@ -14,7 +14,7 @@
 
 - 配置API
 
-    该项目自带了一个测试用的 API 实例，可将 app.py 中的实例更换为自己的API
+    将 app.py 中的实例更换为自己的API
 
     ```python
     class MainWindow(QMainWindow, Ui_MainWindow):
@@ -32,6 +32,10 @@
             self.aipOcr = AipOcr(self.APP_ID, self.API_KEY, self.SECRET_KEY)
             ....
     ```
+
+如果没有，需要去官网注册申请一个，地址为：
+
+https://ai.baidu.com/tech/ocr/general
 
 - 运行
 

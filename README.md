@@ -42,7 +42,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 ## 应用程序
 
-- 该项目使用了`pyinstaller` 进行打包。
+- 该项目可以使用`pyinstaller` 进行打包，我没有windows电脑，这一步就省略了，打包流程不会很复杂
 
 ## 使用方法
 

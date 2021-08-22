@@ -1,6 +1,11 @@
 # OCR--PyQt5
 基于PyQt5开发的OCR文字识别系统，调用了百度AI平台的API。
 
++ 该项目参考了github项目，并添加了定制化的功能，链接：https://github.com/Whitetea00/OCR-character-PyQt5
+
++ 考虑到准确率比较低的原因，这里把图片的固定位置截取出来，进行识别
+
+
 
 ## 环境
 
